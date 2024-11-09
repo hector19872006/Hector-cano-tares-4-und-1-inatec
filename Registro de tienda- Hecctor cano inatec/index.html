@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Registro en nuestra tienda</title>
+</head>
+<body>
+    <h1>Registro en nuestra tienda 
+        
+    </h1>
+    <form>
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Ej: Ares22mount"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Ej: Ares21@gmail.com"><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" placeholder="Ej: 21"><br>
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha"><br>
+
+        <label>Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label><br>
+
+        <label for="recomendado">Recomendado por:</label>
+        <select id="recomendado" name="recomendado">
+            <option value="Google">Google</option>
+            <option value="Amazon">Amazon</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Youtube">Youtube</option>
+            <option value="Otros">Otros</option>
+            <!-- Otras opciones -->
+        </select><br>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios"></textarea><br>
+
+        <input type="checkbox" id="terminos" name="terminos">
+        <label for="terminos">Acepto términos y condiciones</label><br>
+
+        <button type="submit">Registrar</button>
+    </form>
+    <section></section>
+</body>
+</html>
